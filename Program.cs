@@ -6,7 +6,12 @@ namespace id_generator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GeneratorID zkid = new GeneratorID();
+
+            foreach (var item in zkid.GetIDList())
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
