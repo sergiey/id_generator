@@ -1,1 +1,1 @@
-# id_generator
+# ID generator for Zettelkasten notes
